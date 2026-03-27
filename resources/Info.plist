@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Gold Star Echo Chamber</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.goldstarstudios.echochamber</string>
+    <key>CFBundleVersion</key>
+    <string>40.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>40.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>GoldStarEchoChamber</string>
+    <key>CFBundleIconFile</key>
+    <string>dock_icon</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Gold Star Echo Chamber needs microphone access to process live audio input through the convolution reverb engine.</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+</dict>
+</plist>

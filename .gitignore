@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+*.o
+*.d
+
+# macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Gemini/Agent artifacts
+.gemini/
+.claude/
