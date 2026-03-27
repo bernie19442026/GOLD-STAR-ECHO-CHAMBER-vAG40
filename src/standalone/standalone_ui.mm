@@ -547,19 +547,20 @@ static NSRect imageRectToView(CGFloat imgX, CGFloat imgY, CGFloat w, CGFloat h) 
     [content addSubview:outputFader];
 
     // --- VU METERS ---
-    // The image shows VU meters at far right; overlay needles on top
-    CGFloat vuW = 140.0, vuH = 100.0;
+    // Three VU meters at top center of the GUI image
+    CGFloat vuW = 150.0, vuH = 100.0;
+    CGFloat vuY = 115.0;  // vertical center of VU meter area
 
     _vuInput = [[VUMeterOverlay alloc] initWithFrame:
-        imageRectToView(1259, 220, vuW, vuH)];
+        imageRectToView(555, vuY, vuW, vuH)];
     [content addSubview:_vuInput];
 
     _vuProcess = [[VUMeterOverlay alloc] initWithFrame:
-        imageRectToView(1259, 340, vuW, vuH)];
+        imageRectToView(688, vuY, vuW, vuH)];
     [content addSubview:_vuProcess];
 
     _vuOutput = [[VUMeterOverlay alloc] initWithFrame:
-        imageRectToView(1259, 460, vuW, vuH)];
+        imageRectToView(822, vuY, vuW, vuH)];
     [content addSubview:_vuOutput];
 
     // --- TOGGLES ---
